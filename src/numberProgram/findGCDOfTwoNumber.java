@@ -34,8 +34,8 @@ public class findGCDOfTwoNumber
 	
 public static void main(String[] args)
 {
-	int a=40;
-	int b=24;
+	int a=30;
+	int b=60;
 	
 	int GCD=1;
 	
@@ -46,7 +46,7 @@ public static void main(String[] args)
 			if(a%i==0 && b%i==0)
 			{GCD=i;}
 		}
-	System.out.println("GCD of "+a+" "+b+ " is: "+GCD);
+	System.out.println("GCD of "+a+" , "+b+ " is: "+GCD);
 	}
 	else if(b>a) 
 	{
@@ -55,9 +55,9 @@ public static void main(String[] args)
 			if(a%i==0 && b%i==0)
 			{GCD=i;}
 		}
-		System.out.println("GCD of "+a+" "+b+ " is: "+GCD);
+		System.out.println("GCD of "+a+" , "+b+ " is: "+GCD);
 		}
 	else
-	{System.out.println("GCD of "+a+" "+b+ " is: "+a);}
+	{System.out.println("GCD of "+a+" , "+b+ " is: "+GCD);}
 }
 }

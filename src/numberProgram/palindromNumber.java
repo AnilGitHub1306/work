@@ -8,17 +8,17 @@ public static void main(String[] args)
 	int rem=0;
 	int rev=0;
 	
-	while(temp>0) 
+	while(number>0) 
 	{
-		rem=temp%10;
+		rem=number%10;
 		rev=rev*10+rem;
-		temp=temp/10;
+		number=number/10;
 	}
-	if(number == rev)
+	if(temp == rev)
 	{
-		System.out.println(number + " is palindrom number");
+		System.out.println(temp + " is palindrom number");
 	}
 	else
-	{System.out.println(number + " is not a palindrom number");}
+	{System.out.println(temp + " is not a palindrom number");}
 }
 }
